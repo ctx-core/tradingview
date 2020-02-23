@@ -31,7 +31,7 @@
 		"@ctx-core/object": "^8.0.2",
 		"@ctx-core/uri": "^5.2.13",
 		"@ctx-core/uuid": "^3.1.14",
-		"svelte": "^3.18.2"
+		"svelte": "^3.19.0"
 	},
 	"gitHead": "ecded533c5d9946e2d9dafa39dbc95ce3e38ad93"
 }
