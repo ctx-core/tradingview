@@ -2,7 +2,6 @@
 	"name": "@ctx-core/tradingview",
 	"version": "5.0.241",
 	"description": "ctx-core tradingview svelte library",
-	"type": "module",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
