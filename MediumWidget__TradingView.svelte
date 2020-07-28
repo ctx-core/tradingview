@@ -6,7 +6,7 @@
 // https://www.tradingview.com/mediumwidgetembed/?symbols=Apple&Apple=AAPL%20&locale=en&trendLineColor=%234bafe9&underLineColor=%23dbeffb&fontColor=%2383888D&gridLineColor=%23e9e9ea&chartOnly=1&width=200px&height=calc(120px%20-%2032px)&utm_source=www.tradingview.com&utm_medium=widget_new&utm_campaign=symbol-overview
 // See https://www.tradingview.com/widget/symbol-overview/
 import { assign } from '@ctx-core/object'
-import { each, map__andand, _present__a1 } from '@ctx-core/array'
+import { each, map__andand, _a1_present } from '@ctx-core/array'
 import { _str__query } from '@ctx-core/uri'
 import { _hostname } from '@ctx-core/dom'
 export let title = ''
@@ -51,7 +51,7 @@ function _symbol__by__name(a2__name__symbol) {
 }
 </script>
 
-{#if _present__a1(a2__name__symbol)}
+{#if _a1_present(a2__name__symbol)}
 	<iframe
 		{title}
 		class="MediumWidget__TradingView {$$props.class||''}"
