@@ -33,5 +33,5 @@
 		"@ctx-core/uuid": "^3.1.27",
 		"svelte": "^3.24.0"
 	},
-	"gitHead": "775f9230fc9f0c30e9641eef8d115833a5e5d03b"
+	"gitHead": "56cc473370bf36075c429cca08a67f92ba6782da"
 }
