@@ -28,8 +28,8 @@
 		"@ctx-core/array": "^17.0.1",
 		"@ctx-core/dom": "^6.0.30",
 		"@ctx-core/object": "^10.0.2",
-		"@ctx-core/uri": "^7.2.1",
-		"@ctx-core/uuid": "^3.1.30",
+		"@ctx-core/uri": "^7.2.2",
+		"@ctx-core/uuid": "^3.1.31",
 		"svelte": "^3.24.1"
 	},
 	"gitHead": "5822dc8c916c75598105b29737e746754d8efa70"
