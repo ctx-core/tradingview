@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "5.0.321",
+	"version": "5.0.322",
 	"description": "ctx-core tradingview svelte library",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -25,11 +25,11 @@
 		"access": "public"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "^17.0.3",
-		"@ctx-core/dom": "^6.0.33",
-		"@ctx-core/object": "^10.0.3",
-		"@ctx-core/uri": "^7.2.3",
-		"@ctx-core/uuid": "^3.1.32",
+		"@ctx-core/array": "^17.0.4",
+		"@ctx-core/dom": "^6.0.34",
+		"@ctx-core/object": "^10.0.4",
+		"@ctx-core/uri": "^7.2.4",
+		"@ctx-core/uuid": "^3.1.33",
 		"svelte": "^3.25.0"
 	},
 	"gitHead": "d95fbfdf125a46bda14d6351139e51e5d4c89bfb"
