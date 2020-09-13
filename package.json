@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "5.0.322",
+	"version": "5.0.323",
 	"description": "ctx-core tradingview svelte library",
 	"scripts": {
 		"exec": "$@"
