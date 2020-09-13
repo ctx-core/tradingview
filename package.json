@@ -3,7 +3,7 @@
 	"version": "5.0.322",
 	"description": "ctx-core tradingview svelte library",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"exec": "$@"
 	},
 	"repository": {
 		"type": "git",
@@ -32,5 +32,5 @@
 		"@ctx-core/uuid": "^3.1.33",
 		"svelte": "^3.25.0"
 	},
-	"gitHead": "d95fbfdf125a46bda14d6351139e51e5d4c89bfb"
+	"gitHead": "3d5dcfe897f9bf575ce28475b715ccfee4128e59"
 }
