@@ -1,36 +1,36 @@
 {
-  "name": "@ctx-core/tradingview",
-  "version": "5.0.324",
-  "description": "ctx-core tradingview svelte library",
-  "keywords": [
-    "ctx-core",
-    "tradingview",
-    "svelte",
-    "component"
-  ],
-  "homepage": "https://github.com/ctx-core/tradingview#readme",
-  "bugs": {
-    "url": "https://github.com/ctx-core/tradingview/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ctx-core/tradingview/issues"
-  },
-  "license": "Apache-2.0",
-  "author": "Brian Takita",
-  "scripts": {
-    "exec": "$@"
-  },
-  "devDependencies": {
-    "@ctx-core/array": "workspace:*",
-    "@ctx-core/dom": "workspace:*",
-    "@ctx-core/object": "workspace:*",
-    "@ctx-core/uri": "workspace:*",
-    "@ctx-core/uuid": "workspace:*",
-    "svelte": "~3.25.1"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
-  "gitHead": "3d5dcfe897f9bf575ce28475b715ccfee4128e59"
+	"name": "@ctx-core/tradingview",
+	"version": "5.0.324",
+	"description": "ctx-core tradingview svelte library",
+	"keywords": [
+		"ctx-core",
+		"tradingview",
+		"svelte",
+		"component"
+	],
+	"homepage": "https://github.com/ctx-core/tradingview#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/tradingview/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/tradingview/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
+	"scripts": {
+		"exec": "$@",
+		"build": "npm run compile"
+	},
+	"devDependencies": {
+		"@ctx-core/array": "workspace:*",
+		"@ctx-core/dom": "workspace:*",
+		"@ctx-core/object": "workspace:*",
+		"@ctx-core/uri": "workspace:*",
+		"@ctx-core/uuid": "workspace:*",
+		"svelte": "~3.25.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
 }
