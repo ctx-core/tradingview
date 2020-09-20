@@ -19,8 +19,8 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"scripts": {
-		"exec": "$@",
-		"build": "npm run compile"
+		"build": "npm run compile",
+		"exec": "$@"
 	},
 	"devDependencies": {
 		"@ctx-core/array": "workspace:*",
