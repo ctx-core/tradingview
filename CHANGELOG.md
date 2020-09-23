@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 5.0.327
+
+### Patch Changes
+
+- version bump
+
 ## 5.0.326
 
 ### Patch Changes
