@@ -24,7 +24,7 @@
 	},
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^19.0.14",
-		"@ctx-core/dom": "workspace:^7.0.25",
+		"@ctx-core/dom": "workspace:^7.0.26",
 		"@ctx-core/object": "workspace:^12.0.9",
 		"@ctx-core/uri": "workspace:^8.0.0",
 		"@ctx-core/uuid": "workspace:^4.0.0",
