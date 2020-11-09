@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 5.0.337
+
+### Patch Changes
+
+- svelte: 3.29.4 -> 3.29.6
+
 ## 5.0.336
 
 ### Patch Changes
