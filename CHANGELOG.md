@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 5.0.344
+
+### Patch Changes
+
+- - .rush
+
 ## 5.0.343
 
 ### Patch Changes
