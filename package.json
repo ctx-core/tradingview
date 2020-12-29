@@ -23,10 +23,10 @@
 		"exec": "$@"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^19.1.14",
-		"@ctx-core/dom": "workspace:^7.1.27",
-		"@ctx-core/object": "workspace:^15.0.11",
-		"@ctx-core/uri": "workspace:^8.1.18",
+		"@ctx-core/array": "workspace:^19.1.15",
+		"@ctx-core/dom": "workspace:^7.1.28",
+		"@ctx-core/object": "workspace:^15.0.12",
+		"@ctx-core/uri": "workspace:^8.1.19",
 		"@ctx-core/uuid": "workspace:^4.1.0",
 		"svelte": "3.31.0",
 		"typescript": "^4.1.3"
