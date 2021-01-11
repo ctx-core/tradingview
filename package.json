@@ -23,8 +23,8 @@
 		"exec": "$@"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^19.2.0",
-		"@ctx-core/dom": "workspace:^7.1.42",
+		"@ctx-core/array": "workspace:^19.2.1",
+		"@ctx-core/dom": "workspace:^7.1.43",
 		"@ctx-core/object": "workspace:^16.0.3",
 		"@ctx-core/uri": "workspace:^8.1.27",
 		"@ctx-core/uuid": "workspace:^4.1.0",
