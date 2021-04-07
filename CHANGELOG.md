@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 6.0.14
+
+### Patch Changes
+
+- typescript: ^4.2.3 -> ^4.2.4
+
 ## 6.0.13
 
 ### Patch Changes
