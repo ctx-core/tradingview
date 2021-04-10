@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 6.0.17
+
+### Patch Changes
+
+- @ctx-core/object: 17.5.5
+
 ## 6.0.16
 
 ### Patch Changes
