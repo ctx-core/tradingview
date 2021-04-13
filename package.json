@@ -27,7 +27,7 @@
 	"types": "./src/index.ts",
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^20.2.8",
-		"@ctx-core/dom": "workspace:^8.2.21",
+		"@ctx-core/dom": "workspace:^8.2.22",
 		"@ctx-core/object": "workspace:^17.5.6",
 		"@ctx-core/uri": "workspace:^9.1.18",
 		"@ctx-core/uuid": "workspace:^5.0.10",
