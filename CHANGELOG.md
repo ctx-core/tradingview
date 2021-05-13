@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 6.0.32
+
+### Patch Changes
+
+- update dependencies
+
 ## 6.0.31
 
 ### Patch Changes
