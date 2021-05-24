@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 6.1.1
+
+### Patch Changes
+
+- .gitignore: - \*.js
+
 ## 6.1.0
 
 ### Minor Changes
