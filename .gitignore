@@ -2,3 +2,5 @@ node_modules
 *.js
 COMMIT_EDITMSG
 ~/.npm
+dist
+types

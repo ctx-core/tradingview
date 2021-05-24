@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 6.1.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
 ## 6.0.45
 
 ### Patch Changes
