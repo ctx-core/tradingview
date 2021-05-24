@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 6.0.45
+
+### Patch Changes
+
+- types: ./src/index.d.ts: address error TS2742 issue
+
 ## 6.0.44
 
 ### Patch Changes
