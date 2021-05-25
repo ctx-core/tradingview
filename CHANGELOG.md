@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 6.2.0
+
+### Minor Changes
+
+- fix tsc build directory issues
+
 ## 6.1.2
 
 ### Patch Changes
