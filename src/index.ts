@@ -1,3 +1,4 @@
+import 'svelte'
 import Chart__TradingView from './Chart__TradingView.svelte'
 import MarketOverview__TradingView from './MarketOverview__TradingView.svelte'
 import MediumWidget__TradingView from './MediumWidget__TradingView.svelte'
