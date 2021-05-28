@@ -29,7 +29,7 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^20.5.1",
+		"@ctx-core/array": "workspace:^20.5.2",
 		"@ctx-core/ctx-core-package-tools": "workspace:^6.4.2",
 		"@ctx-core/dom": "workspace:^8.5.1",
 		"@ctx-core/object": "workspace:^18.2.1",
