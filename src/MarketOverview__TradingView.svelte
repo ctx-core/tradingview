@@ -52,7 +52,7 @@ function _tab__default() {
 }
 </script>
 
-{#if symbol && _a1_present(tabs)}
+{#if symbol && a_present_(tabs)}
 	<iframe
 		class="MarketOverview__TradingView {$$props.class||''}"
 		title="{symbol}"
