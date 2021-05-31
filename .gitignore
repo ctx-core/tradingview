@@ -3,3 +3,4 @@ COMMIT_EDITMSG
 ~/.npm
 dist
 types
+tsconfig.tsbuildinfo

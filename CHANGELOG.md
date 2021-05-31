@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 7.0.2
+
+### Patch Changes
+
+- - tsconfig.tsbuildinfo
+
 ## 7.0.1
 
 ### Patch Changes
