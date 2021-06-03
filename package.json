@@ -30,7 +30,7 @@
 	"types": "./dist/index.d.ts",
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^21.1.0",
-		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.4",
+		"@ctx-core/ctx-core-package-tools": "workspace:^7.0.5",
 		"@ctx-core/dom": "workspace:^9.0.3",
 		"@ctx-core/object": "workspace:^19.0.3",
 		"@ctx-core/uri": "workspace:^10.0.0",
