@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 7.0.14
+
+### Patch Changes
+
+- fix: build: clean up old build files in dist
+
 ## 7.0.13
 
 ### Patch Changes
