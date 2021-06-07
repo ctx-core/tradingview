@@ -1,0 +1,1 @@
+../src/MediumWidget__TradingView.svelte

@@ -1,0 +1,1 @@
+../src/MiniSymbolOverview__TradingView.svelte

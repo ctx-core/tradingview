@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 7.0.15
+
+### Patch Changes
+
+- version bump: run build
+
 ## 7.0.14
 
 ### Patch Changes
