@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 8.0.1
+
+### Patch Changes
+
+- remove npm run symlink
+
 ## 8.0.0
 
 ### Major Changes

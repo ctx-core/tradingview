@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "8.0.0",
+	"version": "8.0.1",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -19,10 +19,9 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"scripts": {
-		"build": "npm run clean && npm run compile && npm run symlink",
+		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f dist/**/*.js && rm -f dist/**/*.d.ts && rm -f dist/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"symlink": "./node_modules/.bin/symlink_src_assets_to_dist .",
 		"exec": "$@"
 	},
 	"main": "./src/index.js",
