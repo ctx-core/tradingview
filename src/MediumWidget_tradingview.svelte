@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 /**
  * To get the full graph, set:
  * min-width: 300px
@@ -11,7 +11,7 @@ import { _str__query } from '@ctx-core/uri'
 import { _hostname } from '@ctx-core/dom'
 export let title = ''
 export let locale = 'en'
-export let a2__name__symbol = []
+export let symbol_name_a2 = []
 export let trendLineColor = '#4bafe9'
 export let underLineColor = '#dbeffb'
 export let fontColor = '#83888D'
@@ -22,8 +22,8 @@ export let height = '100%'
 export let utm_source = _hostname() || ''
 export let utm_medium = 'widget_new'
 export let utm_campaign = 'mini-symbol-overview'
-$: symbols = map__andand(a2__name__symbol, '0')
-$: symbol__by__name = _symbol__by__name(a2__name__symbol)
+$: symbols = map__andand(symbol_name_a2, '0')
+$: symbol__by__name = symbol_r_name_(symbol_name_a2)
 $: query =
 	assign({
 		locale,
@@ -41,20 +41,20 @@ $: query =
 	}, symbol__by__name)
 let str__query
 $: str__query = _str__query(query)
-function _symbol__by__name(a2__name__symbol) {
-	const symbol__by__name = {}
+function symbol_r_name_(symbol_name_a2:string[][]):Record<string, string> {
+	const symbol_r_name:Record<string, string> = {}
 	each(
-		a2__name__symbol,
-		a1__name__symbol =>
-			symbol__by__name[a1__name__symbol[0]] = a1__name__symbol[1])
-	return symbol__by__name
+		symbol_name_a2,
+		symbol_name_a =>
+			symbol_r_name[symbol_name_a[0]] = symbol_name_a[1])
+	return symbol_r_name
 }
 </script>
 
-{#if a_present_(a2__name__symbol)}
+{#if a_present_(symbol_name_a2)}
 	<iframe
 		{title}
-		class="MediumWidget__TradingView {$$props.class||''}"
+		class="MediumWidget_tradingview {$$props.class||''}"
 		src="https://tradingview.com/mediumwidgetembed/{str__query}"
 		{width}
 		{height}

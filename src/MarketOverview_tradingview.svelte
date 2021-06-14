@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+import { a_present_ } from '@ctx-core/array'
+export let symbol:string
 export let locale = 'en'
 export let width = '100%'
 export let height = '100%'
@@ -17,8 +19,8 @@ export let utm_source =
 	typeof window === 'object' ? window.location.hostname : ''
 export let utm_medium = 'widget_new'
 export let utm_campaign = 'market-overview'
-let str__query
-$: str__query = ({ locale }) => locale ? `?locale=${locale}` : ''
+let query_str
+$: query_str = ({ locale })=>locale ? `?locale=${locale}` : ''
 $: params = (
 	{
 		width,
@@ -39,24 +41,15 @@ $: params = (
 		utm_campaign,
 	}
 )
-$: json__params = params && JSON.stringify(params)
-$: str__hash = json__params && encodeURIComponent(json__params)
-function _tab__default() {
-	return [
-		{
-			title: 'Securities',
-			symbols: [{ s: 'NASDAQ:AAPL', d: 'Apple' }],
-			originalTitle: 'Securities'
-		}
-	]
-}
+$: params_json = params && JSON.stringify(params)
+$: hash_str = params_json && encodeURIComponent(params_json)
 </script>
 
 {#if symbol && a_present_(tabs)}
 	<iframe
-		class="MarketOverview__TradingView {$$props.class||''}"
+		class="MarketOverview_tradingview {$$props.class||''}"
 		title="{symbol}"
-		src="https://tradingview.com/embed-widget/market-overview/{str__query}#{str__hash}"
+		src="https://tradingview.com/embed-widget/market-overview/{query_str}#{hash_str}"
 		{width}
 		{height}
 		frameborder="0"

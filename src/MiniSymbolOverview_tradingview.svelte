@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 // See https://www.tradingview.com/widget/symbol-overview/
-import { _hostname } from '@ctx-core/dom'
+import { hostname_ } from '@ctx-core/dom'
 export let locale = 'en'
 export let symbol = null
 export let width = '100%'
@@ -12,10 +12,10 @@ export let underLineColor = '#e3f2fd'
 export let isTransparent = true
 export let autosize = true
 export let largeChartUrl = ''
-export let utm_source = _hostname() || ''
+export let utm_source = hostname_() || ''
 export let utm_medium = 'widget_new'
 export let utm_campaign = 'mini-symbol-overview'
-$: str__query = locale ? `?locale=${locale}` : ''
+$: query_str = locale ? `?locale=${locale}` : ''
 $: params = (
 	{
 		symbol,
@@ -33,15 +33,15 @@ $: params = (
 		utm_campaign,
 	}
 )
-$: json__params = params && JSON.stringify(params)
-$: str__hash = json__params && encodeURIComponent(json__params)
+$: params_json = params && JSON.stringify(params)
+$: r_str = params_json && encodeURIComponent(params_json)
 </script>
 
 {#if symbol}
 	<iframe
-		class="MiniSymbolOverview__TradingView {$$props.class||''}"
+		class="MiniSymbolOverview_tradingview {$$props.class||''}"
 		title="{symbol}"
-		src="https://tradingview.com/embed-widget/mini-symbol-overview/{str__query}#{str__hash}"
+		src="https://tradingview.com/embed-widget/mini-symbol-overview/{query_str}#{r_str}"
 		{width}
 		{height}
 		frameborder="0"

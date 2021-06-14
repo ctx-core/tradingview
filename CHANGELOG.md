@@ -1,5 +1,12 @@
 # @ctx-core/tradingview
 
+## 8.0.0
+
+### Major Changes
+
+- component name changes
+- move from dist to src directory
+
 ## 7.0.23
 
 ### Patch Changes

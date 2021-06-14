@@ -1,11 +1,11 @@
 import 'svelte'
-import Chart__TradingView from './Chart__TradingView.svelte'
-import MarketOverview__TradingView from './MarketOverview__TradingView.svelte'
-import MediumWidget__TradingView from './MediumWidget__TradingView.svelte'
-import MiniSymbolOverview__TradingView from './MiniSymbolOverview__TradingView.svelte'
+import Chart_tradingview from './Chart_tradingview.svelte'
+import MarketOverview_tradingview from './MarketOverview_tradingview.svelte'
+import MediumWidget_tradingview from './MediumWidget_tradingview.svelte'
+import MiniSymbolOverview_tradingview from './MiniSymbolOverview_tradingview.svelte'
 export {
-	Chart__TradingView,
-	MarketOverview__TradingView,
-	MediumWidget__TradingView,
-	MiniSymbolOverview__TradingView
+	Chart_tradingview,
+	MarketOverview_tradingview,
+	MediumWidget_tradingview,
+	MiniSymbolOverview_tradingview
 }
