@@ -28,10 +28,10 @@
 	"module": "./src/index.js",
 	"types": "./src/index.d.ts",
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^22.0.1",
+		"@ctx-core/array": "workspace:^22.0.2",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.1",
-		"@ctx-core/dom": "workspace:^10.0.0",
-		"@ctx-core/object": "workspace:^20.0.0",
+		"@ctx-core/dom": "workspace:^10.0.1",
+		"@ctx-core/object": "workspace:^20.0.1",
 		"@ctx-core/uri": "workspace:^11.0.0",
 		"@ctx-core/uuid": "workspace:^7.0.0",
 		"svelte": "3.38.2",
