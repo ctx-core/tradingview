@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 8.0.8
+
+### Patch Changes
+
+- fix: deploying \*.js files
+
 ## 8.0.7
 
 ### Patch Changes
