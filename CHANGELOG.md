@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 8.0.7
+
+### Patch Changes
+
+- fix: npm run clean
+
 ## 8.0.6
 
 ### Patch Changes
