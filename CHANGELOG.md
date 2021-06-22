@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 8.0.9
+
+### Patch Changes
+
+- "prepublishOnly": "npm run clean && npm run compile"
+
 ## 8.0.8
 
 ### Patch Changes
