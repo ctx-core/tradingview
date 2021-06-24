@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 8.0.12
+
+### Patch Changes
+
+- tsconfig.json: "lib": ["dom", "ESNext"]
+
 ## 8.0.11
 
 ### Patch Changes
