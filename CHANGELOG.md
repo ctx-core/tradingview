@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 8.0.16
+
+### Patch Changes
+
+- dist directory
+
 ## 8.0.15
 
 ### Patch Changes

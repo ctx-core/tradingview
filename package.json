@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "8.0.15",
+	"version": "8.0.16",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -19,21 +19,23 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"scripts": {
-		"build": "npm run clean && npm run compile",
+		"build": "npm run clean && npm run copy-components && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo && rm -f src/**/*.js && rm -f src/**/*.d.ts && rm -f src/**/*.map",
 		"compile": "./node_modules/.bin/tsc -b .",
-		"exec": "$@"
+		"copy-components": "cd src && find . | grep \\.svelte$ | awk '{print \"mkdir -p dirname \"$1\" && cp -f \"$1\" ../dist/\"$1}'",
+		"exec": "$@",
+		"prepublishOnly": "npm run build"
 	},
-	"main": "./src/index.js",
-	"module": "./src/index.js",
-	"types": "./src/index.d.ts",
+	"main": "./dist/index.js",
+	"module": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^22.0.15",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.11",
-		"@ctx-core/dom": "workspace:^10.0.14",
-		"@ctx-core/object": "workspace:^20.2.1",
-		"@ctx-core/uri": "workspace:^11.0.12",
-		"@ctx-core/uuid": "workspace:^7.0.8",
+		"@ctx-core/array": "workspace:^22.0.16",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.12",
+		"@ctx-core/dom": "workspace:^10.0.15",
+		"@ctx-core/object": "workspace:^20.2.2",
+		"@ctx-core/uri": "workspace:^11.0.13",
+		"@ctx-core/uuid": "workspace:^7.0.9",
 		"svelte": "3.38.3",
 		"typescript": "^4.3.4"
 	},
