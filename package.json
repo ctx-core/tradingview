@@ -32,7 +32,7 @@
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^22.1.5",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.19",
-		"@ctx-core/dom": "workspace:^10.0.23",
+		"@ctx-core/dom": "workspace:^10.0.24",
 		"@ctx-core/object": "workspace:^20.4.0",
 		"@ctx-core/uri": "workspace:^11.0.16",
 		"@ctx-core/uuid": "workspace:^7.0.10",
