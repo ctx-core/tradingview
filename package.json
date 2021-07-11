@@ -32,8 +32,8 @@
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^22.1.6",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.21",
-		"@ctx-core/dom": "workspace:^10.0.25",
-		"@ctx-core/object": "workspace:^20.4.1",
+		"@ctx-core/dom": "workspace:^10.0.26",
+		"@ctx-core/object": "workspace:^20.4.2",
 		"@ctx-core/uri": "workspace:^11.0.17",
 		"@ctx-core/uuid": "workspace:^7.0.10",
 		"svelte": "3.38.3",
