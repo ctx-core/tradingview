@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 8.1.0
+
+### Minor Changes
+
+- aa instead of a2,aaa instead of a3
+
 ## 8.0.32
 
 ### Patch Changes
