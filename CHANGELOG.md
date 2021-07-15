@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.0
+
+### Major Changes
+
+- "type": "module": module npm type
+
 ## 8.1.1
 
 ### Patch Changes
