@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.2
+
+### Patch Changes
+
+- fix: "type": "module"
+
 ## 9.0.1
 
 ### Patch Changes
