@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.7
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+
 ## 9.0.6
 
 ### Patch Changes
