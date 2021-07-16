@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.6
+
+### Patch Changes
+
+- "main": "./dist/index.cjs"
+
 ## 9.0.5
 
 ### Patch Changes
