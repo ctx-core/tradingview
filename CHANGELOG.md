@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.3
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+
 ## 9.0.2
 
 ### Patch Changes
