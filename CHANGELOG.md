@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.9
+
+### Patch Changes
+
+- - tsconfig.tsbuildinfo
+
 ## 9.0.8
 
 ### Patch Changes
