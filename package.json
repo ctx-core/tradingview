@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.0.13",
+	"version": "9.0.14",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -23,9 +23,11 @@
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"exports": {
-		"require": "./dist/index.cjs",
-		"import": "./dist/index.js",
-		"package.json": "./package.json"
+		".": {
+			"require": "./dist/index.cjs",
+			"import": "./dist/index.js"
+		},
+		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"build": "npm run clean && npm run copy-mjs && npm run copy-components && npm run compile",
@@ -37,12 +39,12 @@
 		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^23.0.12",
+		"@ctx-core/array": "workspace:^23.0.13",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.35",
-		"@ctx-core/dom": "workspace:^11.0.14",
-		"@ctx-core/object": "workspace:^21.0.11",
-		"@ctx-core/uri": "workspace:^12.0.10",
-		"@ctx-core/uuid": "workspace:^8.0.10",
+		"@ctx-core/dom": "workspace:^11.0.15",
+		"@ctx-core/object": "workspace:^21.0.12",
+		"@ctx-core/uri": "workspace:^12.0.11",
+		"@ctx-core/uuid": "workspace:^8.0.11",
 		"svelte": "3.38.3",
 		"typescript": "^4.3.5"
 	},
