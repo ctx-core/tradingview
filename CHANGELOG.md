@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.20
+
+### Patch Changes
+
+- update dependencies
+
 ## 9.0.19
 
 ### Patch Changes
