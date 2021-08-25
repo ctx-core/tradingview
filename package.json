@@ -39,10 +39,10 @@
 		"prepublishOnly": "npm run build"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^23.0.14",
+		"@ctx-core/array": "workspace:^23.0.15",
 		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.55",
-		"@ctx-core/dom": "workspace:^11.0.17",
-		"@ctx-core/object": "workspace:^21.0.13",
+		"@ctx-core/dom": "workspace:^11.0.18",
+		"@ctx-core/object": "workspace:^21.0.14",
 		"@ctx-core/uri": "workspace:^12.0.12",
 		"@ctx-core/uuid": "workspace:^8.0.11",
 		"svelte": "3.42.3",
