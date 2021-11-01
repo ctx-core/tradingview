@@ -1,5 +1,12 @@
 # @ctx-core/tradingview
 
+## 9.0.64
+
+### Patch Changes
+
+- typescript: ^4.4.3 -> ^4.4.4
+- svelte: 3.43.1 -> 3.44.0
+
 ## 9.0.63
 
 ### Patch Changes
