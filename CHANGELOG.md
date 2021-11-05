@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.67
+
+### Patch Changes
+
+- components: export \* as
+
 ## 9.0.66
 
 ### Patch Changes
