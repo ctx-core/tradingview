@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.68
+
+### Patch Changes
+
+- compile using swc
+
 ## 9.0.67
 
 ### Patch Changes
