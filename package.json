@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.0.72",
+	"version": "9.0.73",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -37,14 +37,14 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^23.0.27",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.80",
-		"@ctx-core/dom": "workspace:^11.0.34",
-		"@ctx-core/object": "workspace:^21.0.26",
-		"@ctx-core/uri": "workspace:^12.0.20",
-		"@ctx-core/uuid": "workspace:^8.0.19",
+		"@ctx-core/array": "workspace:^23.0.28",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.81",
+		"@ctx-core/dom": "workspace:^11.0.35",
+		"@ctx-core/object": "workspace:^21.0.27",
+		"@ctx-core/uri": "workspace:^12.0.21",
+		"@ctx-core/uuid": "workspace:^8.0.20",
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.113",
+		"@swc/core": "^1.2.116",
 		"svelte": "3.44.2",
 		"typescript": "next"
 	},

@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.73
+
+### Patch Changes
+
+- @swc/core: ^1.2.113 -> ^1.2.116
+
 ## 9.0.72
 
 ### Patch Changes
