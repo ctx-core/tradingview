@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.77
+
+### Patch Changes
+
+- package.json: - "main": explicitly not support cjs
+
 ## 9.0.76
 
 ### Patch Changes
