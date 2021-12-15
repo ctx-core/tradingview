@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.83
+
+### Patch Changes
+
+- fix: tsconfig.json: "rootDir": "."
+
 ## 9.0.82
 
 ### Patch Changes
