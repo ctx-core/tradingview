@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.0.83",
+	"version": "9.0.84",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -22,24 +22,26 @@
 	"exports": {
 		".": {
 			"import": "./dist/index.js",
-			"types": "./src/index.ts"
+			"types": "./dist/index.d.ts"
 		},
 		"./package.json": "./package.json"
 	},
 	"scripts": {
 		"build": "npm run compile",
 		"clean": "rimraf dist",
-		"compile": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile": "npm run compile_source && npm run compile_declaration",
+		"compile_source": "swc src --out-dir dist --copy-files --source-maps --config-file .swcrc",
+		"compile_declaration": "tsc src/index.ts --declaration --emitDeclarationOnly --declarationDir dist",
 		"exec": "$@",
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:^23.0.36",
-		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.90",
-		"@ctx-core/dom": "workspace:^11.0.43",
-		"@ctx-core/object": "workspace:^22.0.3",
-		"@ctx-core/uri": "workspace:^12.0.29",
-		"@ctx-core/uuid": "workspace:^8.0.27",
+		"@ctx-core/array": "workspace:^23.0.37",
+		"@ctx-core/ctx-core-package-tools": "workspace:^8.0.91",
+		"@ctx-core/dom": "workspace:^11.0.44",
+		"@ctx-core/object": "workspace:^22.0.4",
+		"@ctx-core/uri": "workspace:^12.0.30",
+		"@ctx-core/uuid": "workspace:^8.0.28",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",

@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.84
+
+### Patch Changes
+
+- \*.d.ts export
+
 ## 9.0.83
 
 ### Patch Changes
