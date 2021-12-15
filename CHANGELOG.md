@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.81
+
+### Patch Changes
+
+- package.json: svelte: ./dist/index.js
+
 ## 9.0.80
 
 ### Patch Changes
