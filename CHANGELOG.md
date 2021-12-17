@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.88
+
+### Patch Changes
+
+- fix: error TS6059: \* is not under 'rootDir': package.json: types: ./dist/index.d.ts
+
 ## 9.0.87
 
 ### Patch Changes
