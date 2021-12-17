@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.87
+
+### Patch Changes
+
+- tsconfig.json: "target": "ES2021"
+
 ## 9.0.86
 
 ### Patch Changes
