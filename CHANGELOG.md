@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.86
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+
 ## 9.0.85
 
 ### Patch Changes
