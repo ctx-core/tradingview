@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.0.88",
+	"version": "9.0.89",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -29,7 +29,7 @@
 	"scripts": {
 		"build": "npm run compile",
 		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rm -f tsconfig.tsbuildinfo && rm -f lib/**/*.d.ts",
+		"clean:tsbuildinfo": "rimraf tsconfig.tsbuildinfo && rimraf lib/**/*.d.ts",
 		"compile": "npm run compile:source && npm run compile:declaration",
 		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
 		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
@@ -38,10 +38,10 @@
 	},
 	"devDependencies": {
 		"@ctx-core/array": "workspace:^23.1.0",
-		"@ctx-core/dom": "workspace:^11.1.0",
+		"@ctx-core/dom": "workspace:^11.1.2",
 		"@ctx-core/object": "workspace:^22.0.8",
-		"@ctx-core/uri": "workspace:^12.0.34",
-		"@ctx-core/uuid": "workspace:^8.0.32",
+		"@ctx-core/uri": "workspace:^12.0.35",
+		"@ctx-core/uuid": "workspace:^8.0.33",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
