@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.92
+
+### Patch Changes
+
+- sideEffects = false
+
 ## 9.0.91
 
 ### Patch Changes
