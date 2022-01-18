@@ -6,9 +6,9 @@
 // https://www.tradingview.com/mediumwidgetembed/?symbols=Apple&Apple=AAPL%20&locale=en&trendLineColor=%234bafe9&underLineColor=%23dbeffb&fontColor=%2383888D&gridLineColor=%23e9e9ea&chartOnly=1&width=200px&height=calc(120px%20-%2032px)&utm_source=www.tradingview.com&utm_medium=widget_new&utm_campaign=symbol-overview
 // See https://www.tradingview.com/widget/symbol-overview/
 import { assign } from '@ctx-core/object'
-import { each, map__andand, a_present_ } from '@ctx-core/array'
-import { _str__query } from '@ctx-core/uri'
-import { _hostname } from '@ctx-core/dom'
+import { each, map_andand, a_present_ } from '@ctx-core/array'
+import { query_str_ } from '@ctx-core/uri'
+import { hostname_ } from '@ctx-core/dom'
 export let title = ''
 export let locale = 'en'
 export let symbol_name_aa = []
@@ -19,11 +19,11 @@ export let gridLineColor = '#e9e9ea'
 export let chartOnly = ''
 export let width = '100%'
 export let height = '100%'
-export let utm_source = _hostname() || ''
+export let utm_source = hostname_() || ''
 export let utm_medium = 'widget_new'
 export let utm_campaign = 'mini-symbol-overview'
-$: symbols = map__andand(symbol_name_aa, '0')
-$: symbol__by__name = symbol_r_name_(symbol_name_aa)
+$: symbols = map_andand(symbol_name_aa, '0')
+$: symbol_r_name = symbol_r_name_(symbol_name_aa)
 $: query =
 	assign({
 		locale,
@@ -38,9 +38,9 @@ $: query =
 		utm_source,
 		utm_medium,
 		utm_campaign,
-	}, symbol__by__name)
-let str__query
-$: str__query = _str__query(query)
+	}, symbol_r_name)
+let query_str
+$: query_str = query_str_(query)
 function symbol_r_name_(symbol_name_aa:string[][]):Record<string, string> {
 	const symbol_r_name:Record<string, string> = {}
 	each(
@@ -55,7 +55,7 @@ function symbol_r_name_(symbol_name_aa:string[][]):Record<string, string> {
 	<iframe
 		{title}
 		class="MediumWidget_tradingview {$$props.class||''}"
-		src="https://tradingview.com/mediumwidgetembed/{str__query}"
+		src="https://tradingview.com/mediumwidgetembed/{query_str}"
 		{width}
 		{height}
 		frameborder="0"
