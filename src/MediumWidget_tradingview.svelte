@@ -6,7 +6,7 @@
 // https://www.tradingview.com/mediumwidgetembed/?symbols=Apple&Apple=AAPL%20&locale=en&trendLineColor=%234bafe9&underLineColor=%23dbeffb&fontColor=%2383888D&gridLineColor=%23e9e9ea&chartOnly=1&width=200px&height=calc(120px%20-%2032px)&utm_source=www.tradingview.com&utm_medium=widget_new&utm_campaign=symbol-overview
 // See https://www.tradingview.com/widget/symbol-overview/
 import { assign } from '@ctx-core/object'
-import { each, map_andand, a_present_ } from '@ctx-core/array'
+import { map_andand, a_present_ } from '@ctx-core/array'
 import { query_str_ } from '@ctx-core/uri'
 import { hostname_ } from '@ctx-core/dom'
 export let title = ''
@@ -43,10 +43,9 @@ let query_str
 $: query_str = query_str_(query)
 function symbol_r_name_(symbol_name_aa:string[][]):Record<string, string> {
 	const symbol_r_name:Record<string, string> = {}
-	each(
-		symbol_name_aa,
-		symbol_name_a =>
-			symbol_r_name[symbol_name_a[0]] = symbol_name_a[1])
+	for (const symbol_name_a of symbol_name_aa) {
+		symbol_r_name[symbol_name_a[0]] = symbol_name_a[1]
+	}
 	return symbol_r_name
 }
 </script>
