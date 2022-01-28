@@ -45,7 +45,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.133",
+		"@swc/core": "^1.2.135",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.46.3",
 		"svelte-preprocess": "^4.10.2",
