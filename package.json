@@ -45,11 +45,11 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
-		"@swc/core": "^1.2.136",
+		"@swc/core": "^1.2.137",
 		"rimraf": "^3.0.2",
 		"svelte": "^3.46.4",
 		"svelte-preprocess": "^4.10.2",
-		"svelte2tsx": "^0.5.2",
+		"svelte2tsx": "^0.5.3",
 		"tslib": "^2.3.1",
 		"typescript": "next"
 	},
