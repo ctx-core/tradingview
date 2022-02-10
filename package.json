@@ -37,11 +37,11 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "workspace:*",
-		"@ctx-core/dom": "workspace:^11.1.6",
-		"@ctx-core/object": "workspace:*",
-		"@ctx-core/uri": "workspace:^12.0.39",
-		"@ctx-core/uuid": "workspace:^8.0.36",
+		"@ctx-core/array": "*",
+		"@ctx-core/dom": "^11.1.6",
+		"@ctx-core/object": "*",
+		"@ctx-core/uri": "^12.0.39",
+		"@ctx-core/uuid": "^8.0.36",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@swc/cli": "^0.1.55",
