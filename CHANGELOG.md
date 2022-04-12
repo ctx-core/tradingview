@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.97
+
+### Patch Changes
+
+- package.json: exports: update
+
 ## 9.0.96
 
 ### Patch Changes
