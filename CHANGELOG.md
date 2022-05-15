@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.106
+
+### Patch Changes
+
+- svelte2tsx: ^0.5.9 -> ^0.5.10
+
 ## 9.0.105
 
 ### Patch Changes
