@@ -38,7 +38,7 @@
 		"@ctx-core/array": "^26.5.1",
 		"@ctx-core/dom": "^11.1.21",
 		"@ctx-core/object": "^22.2.1",
-		"@ctx-core/uri": "^12.0.49",
+		"@ctx-core/uri": "^12.0.50",
 		"@ctx-core/uuid": "^8.0.37",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
