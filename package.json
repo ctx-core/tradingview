@@ -48,7 +48,7 @@
 		"svelte": "^3.52.0",
 		"svelte-preprocess": "^4.10.7",
 		"svelte2tsx": "^0.5.20",
-		"tslib": "^2.4.0",
+		"tslib": "^2.4.1",
 		"typescript": "next"
 	},
 	"publishConfig": {
