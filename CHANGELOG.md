@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.131
+
+### Patch Changes
+
+- svelte-preprocess: ^4.10.7 -> ^5.0.0
+
 ## 9.0.130
 
 ### Patch Changes
