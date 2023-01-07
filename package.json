@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.0.141",
+	"version": "9.0.142",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -35,10 +35,10 @@
 		"prepublishOnly": "npm run clean && npm run build"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "^26.8.4",
-		"@ctx-core/dom": "^11.2.7",
-		"@ctx-core/object": "^22.8.2",
-		"@ctx-core/uri": "^12.0.56",
+		"@ctx-core/array": "^26.8.5",
+		"@ctx-core/dom": "^11.2.8",
+		"@ctx-core/object": "^22.9.0",
+		"@ctx-core/uri": "^12.0.57",
 		"@ctx-core/uuid": "^8.0.37",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
