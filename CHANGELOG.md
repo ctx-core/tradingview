@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.149
+
+### Patch Changes
+
+- @ctx-core/object: ^23.0.0 -> ^23.0.1
+
 ## 9.0.148
 
 ### Patch Changes
