@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.154
+
+### Patch Changes
+
+- rimraf: ^3.0.2 -> ^4.0.1
+
 ## 9.0.153
 
 ### Patch Changes
