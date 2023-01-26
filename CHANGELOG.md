@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.160
+
+### Patch Changes
+
+- tslib: ^2.4.1 -> ^2.5.0
+
 ## 9.0.159
 
 ### Patch Changes
