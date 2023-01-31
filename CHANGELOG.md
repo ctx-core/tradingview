@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.161
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+
 ## 9.0.160
 
 ### Patch Changes
