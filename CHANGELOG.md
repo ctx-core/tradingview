@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.0.171
+
+### Patch Changes
+
+- @ctx-core/dom: ^11.2.32 -> ^11.2.33
+
 ## 9.0.170
 
 ### Patch Changes
