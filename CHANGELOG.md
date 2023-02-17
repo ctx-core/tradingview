@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.1.1
+
+### Patch Changes
+
+- @ctx-core/uri: workspace:^12.0.69 -> 12.1.0
+
 ## 9.1.0
 
 ### Minor Changes
