@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.1.2
+
+### Patch Changes
+
+- @ctx-core/uuid: workspace:^8.0.41 -> 8.1.0
+
 ## 9.1.1
 
 ### Patch Changes
