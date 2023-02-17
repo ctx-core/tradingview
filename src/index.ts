@@ -1,5 +1,0 @@
-import 'svelte'
-export * as Chart_tradingview from './Chart_tradingview.svelte'
-export * as MarketOverview_tradingview from './MarketOverview_tradingview.svelte'
-export * as MediumWidget_tradingview from './MediumWidget_tradingview.svelte'
-export * as MiniSymbolOverview_tradingview from './MiniSymbolOverview_tradingview.svelte'

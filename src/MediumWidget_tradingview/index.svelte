@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 /**
  * To get the full graph, set:
  * min-width: 300px

@@ -1,6 +1,7 @@
-<script lang="ts">
+<script>
 import { a_present_ } from '@ctx-core/array'
-export let symbol:string
+/** @type {string} */
+export let symbol
 export let locale = 'en'
 export let width = '100%'
 export let height = '100%'

@@ -1,10 +1,11 @@
-<script lang="ts">
+<script>
 // See https://www.tradingview.com/widget/advanced-chart/
 import { uuid_ } from '@ctx-core/uuid'
 import { hostname_ } from '@ctx-core/dom'
 import { query_str_ } from '@ctx-core/uri'
 export let id = `Chart_tradingview__${uuid_()}`
-export let symbol:string
+/** @type {string} */
+export let symbol
 export let width = '100%'
 export let height = '100%'
 export let interval = 'D'

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
 // See https://www.tradingview.com/widget/symbol-overview/
 import { hostname_ } from '@ctx-core/dom'
 export let locale = 'en'
@@ -15,6 +15,8 @@ export let largeChartUrl = ''
 export let utm_source = hostname_() || ''
 export let utm_medium = 'widget_new'
 export let utm_campaign = 'mini-symbol-overview'
+/** @type {string} */
+let query_str
 $: query_str = locale ? `?locale=${locale}` : ''
 $: params = (
 	{

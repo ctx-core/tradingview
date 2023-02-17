@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.0.184",
+	"version": "9.1.0",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -19,42 +19,39 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./lib/index.d.ts",
+	"types": "./src/index.d.ts",
+	"svelte": "./src/index.js",
 	"exports": {
-		".": "./lib/index.js",
+		".": "./src/index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
-		"build": "npm run compile",
-		"clean": "rimraf lib && npm run clean:tsbuildinfo",
-		"clean:tsbuildinfo": "rimraf tsconfig.tsbuildinfo && rimraf lib/**/*.d.ts",
-		"compile": "npm run compile:source && npm run compile:declaration",
-		"compile:source": "swc src --out-dir lib --copy-files --source-maps --config-file .swcrc",
-		"compile:declaration": "npm run clean:tsbuildinfo && tsc --declaration --emitDeclarationOnly --declarationDir lib",
+		"build": ":",
+		"clean": ":",
 		"exec": "$@",
-		"prepublishOnly": "npm run clean && npm run build"
+		"prepublishOnly": "npm run clean && npm run build && npm run test",
+		"test": "pnpm test-unit && check-dts",
+		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
+		"test-unit-coverage": "c8 pnpm test-unit"
+	},
+	"dependencies": {
+		"@ctx-core/array": "workspace:^26.10.2",
+		"@ctx-core/dom": "workspace:^11.4.1",
+		"@ctx-core/object": "workspace:^24.1.4",
+		"@ctx-core/uri": "workspace:^12.0.69",
+		"@ctx-core/uuid": "workspace:^8.0.41",
+		"svelte": "^3.55.1"
 	},
 	"devDependencies": {
-		"@ctx-core/array": "^26.10.2",
-		"@ctx-core/dom": "^11.4.1",
-		"@ctx-core/object": "^24.1.4",
-		"@ctx-core/uri": "^12.0.69",
-		"@ctx-core/uuid": "^8.0.41",
-		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/kit": "next",
-		"@swc/cli": "^0.1.62",
-		"@swc/core": "^1.3.35",
-		"rimraf": "^4.1.2",
-		"svelte": "^3.55.1",
-		"svelte-preprocess": "^5.0.1",
-		"svelte2tsx": "^0.6.1",
-		"tslib": "^2.5.0",
-		"typescript": "next"
+		"c8": "^7.13.0",
+		"check-dts": "^0.7.0",
+		"tsx": "^3.12.3",
+		"typescript": "next",
+		"uvu": "^0.5.6"
 	},
 	"publishConfig": {
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./lib/index.js",
 	"sideEffects": false
 }

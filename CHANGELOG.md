@@ -1,5 +1,11 @@
 # @ctx-core/tradingview
 
+## 9.1.0
+
+### Minor Changes
+
+- extract _.js & _.d.ts into directories
+
 ## 9.0.184
 
 ### Patch Changes
