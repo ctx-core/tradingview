@@ -1,5 +1,14 @@
 # @ctx-core/tradingview
 
+## 9.1.92
+
+### Patch Changes
+
+- Updated dependencies
+  - @ctx-core/array@26.12.7
+  - @ctx-core/dom@14.1.3
+  - @ctx-core/object@27.3.4
+
 ## 9.1.91
 
 ### Patch Changes
