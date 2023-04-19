@@ -1,5 +1,17 @@
 # @ctx-core/tradingview
 
+## 9.1.126
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+- Updated dependencies
+  - @ctx-core/array@26.12.32
+  - @ctx-core/dom@14.1.31
+  - @ctx-core/object@27.4.23
+  - @ctx-core/uri@12.4.38
+  - @ctx-core/uuid@8.1.19
+
 ## 9.1.125
 
 ### Patch Changes
