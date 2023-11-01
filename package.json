@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.1.183",
+	"version": "9.1.184",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -35,10 +35,10 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.5",
-		"@ctx-core/dom": "^14.3.0",
-		"@ctx-core/object": "^28.2.1",
-		"@ctx-core/uri": "^12.4.58",
+		"@ctx-core/array": "^26.15.6",
+		"@ctx-core/dom": "^14.3.1",
+		"@ctx-core/object": "^28.2.2",
+		"@ctx-core/uri": "^12.4.59",
 		"@ctx-core/uuid": "^8.1.21",
 		"svelte": "^4.2.2"
 	},
