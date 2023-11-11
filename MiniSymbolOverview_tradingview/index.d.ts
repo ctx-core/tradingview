@@ -1,5 +1,5 @@
-import { SvelteComponentTyped } from 'svelte'
-export class MiniSymbolOverview_tradingview extends SvelteComponentTyped<{
+import { SvelteComponent } from 'svelte'
+export class MiniSymbolOverview_tradingview extends SvelteComponent<{
 	class?:string
 	locale?:string
 	symbol?:string
@@ -15,4 +15,5 @@ export class MiniSymbolOverview_tradingview extends SvelteComponentTyped<{
 	utm_source?:string
 	utm_medium?:string
 	utm_campaign?:string
-}> {}
+}> {
+}

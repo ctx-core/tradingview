@@ -1,5 +1,5 @@
-import type { SvelteComponentTyped } from 'svelte'
-export class Chart_tradingview extends SvelteComponentTyped<{
+import type { SvelteComponent } from 'svelte'
+export class Chart_tradingview extends SvelteComponent<{
 	symbol:string
 	class?:string
 	id?:string
@@ -25,4 +25,5 @@ export class Chart_tradingview extends SvelteComponentTyped<{
 	utm_source?:string
 	utm_medium?:string
 	utm_campaign?:string
-}> {}
+}> {
+}

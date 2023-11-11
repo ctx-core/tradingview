@@ -1,5 +1,5 @@
-import type { SvelteComponentTyped } from 'svelte'
-export class MediumWidget_tradingview extends SvelteComponentTyped<{
+import type { SvelteComponent } from 'svelte'
+export class MediumWidget_tradingview extends SvelteComponent<{
 	class?:string
 	title?:string
 	locale?:string
@@ -14,4 +14,5 @@ export class MediumWidget_tradingview extends SvelteComponentTyped<{
 	utm_source?:string
 	utm_medium?:string
 	utm_campaign?:string
-}> {}
+}> {
+}

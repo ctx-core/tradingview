@@ -1,5 +1,31 @@
 # @ctx-core/tradingview
 
+## 9.2.0
+
+### Minor Changes
+
+- fix:types package.json exports
+- tsconfig:
+
+      "module": "ESNext"
+      "moduleResolution": "nodenext"
+      "target": "ESNext"
+
+### Patch Changes
+
+- package.json: - "svelte": "./src/index.js"
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@27.0.0
+  - ctx-core@2.1.0
+  - @ctx-core/dom@15.1.0
+  - @ctx-core/uri@12.5.0
+  - @ctx-core/uuid@8.2.0
+
 ## 9.1.194
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.1.194",
+	"version": "9.2.0",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -19,10 +19,16 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts",
+		"./Chart_tradingview",
+		"./MarketOverview_tradingview",
+		"./MediumWidget_tradingview",
+		"./MiniSymbolOverview_tradingview"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -35,11 +41,11 @@
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
 	"dependencies": {
-		"@ctx-core/array": "^26.15.9",
-		"@ctx-core/dom": "^15.0.7",
+		"@ctx-core/array": "^27.0.0",
+		"@ctx-core/dom": "^15.1.0",
 		"@ctx-core/object": "^30.0.0",
-		"@ctx-core/uri": "^12.4.62",
-		"@ctx-core/uuid": "^8.1.21",
+		"@ctx-core/uri": "^12.5.0",
+		"@ctx-core/uuid": "^8.2.0",
 		"svelte": "^4.2.2"
 	},
 	"devDependencies": {
