@@ -1,5 +1,17 @@
 # @ctx-core/tradingview
 
+## 9.2.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+- Updated dependencies
+  - @ctx-core/array@27.0.3
+  - @ctx-core/dom@15.1.3
+  - @ctx-core/object@30.1.3
+  - @ctx-core/uri@12.5.3
+  - @ctx-core/uuid@8.2.3
+
 ## 9.2.2
 
 ### Patch Changes
