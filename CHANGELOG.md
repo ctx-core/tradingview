@@ -1,5 +1,20 @@
 # @ctx-core/tradingview
 
+## 9.2.1
+
+### Patch Changes
+
+- @ctx-core/object: ^30.0.0 -> ^30.1.0
+- svelte: ^4.2.2 -> ^4.2.3
+- tsx: ^4.0.0 -> ^4.1.2
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/array@27.0.1
+  - @ctx-core/object@30.1.1
+  - @ctx-core/uri@12.5.1
+  - @ctx-core/uuid@8.2.1
+  - @ctx-core/dom@15.1.1
+
 ## 9.2.0
 
 ### Minor Changes
