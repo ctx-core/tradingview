@@ -1,5 +1,19 @@
 # @ctx-core/tradingview
 
+## 9.2.59
+
+### Patch Changes
+
+- @ctx-core/uri: ^12.6.2 -> ^12.6.3
+- @ctx-core/array: ^27.1.12 -> ^27.1.13
+- @ctx-core/object: ^31.1.32 -> ^31.1.33
+- @ctx-core/uuid: ^8.2.51 -> ^8.2.52
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - @ctx-core/dom@15.1.56
+
 ## 9.2.58
 
 ### Patch Changes
