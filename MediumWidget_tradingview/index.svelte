@@ -5,10 +5,10 @@
 	 */
 	// https://www.tradingview.com/mediumwidgetembed/?symbols=Apple&Apple=AAPL%20&locale=en&trendLineColor=%234bafe9&underLineColor=%23dbeffb&fontColor=%2383888D&gridLineColor=%23e9e9ea&chartOnly=1&width=200px&height=calc(120px%20-%2032px)&utm_source=www.tradingview.com&utm_medium=widget_new&utm_campaign=symbol-overview
 	// See https://www.tradingview.com/widget/symbol-overview/
-	import { a_present_, map_andand } from '@ctx-core/array'
 	import { hostname_ } from '@ctx-core/dom'
-	import { assign } from '@ctx-core/object'
-	import { query_str_ } from '@ctx-core/uri'
+	import { a_present_, map_andand } from 'ctx-core/array'
+	import { assign } from 'ctx-core/object'
+	import { query_str_ } from 'ctx-core/uri'
 	export let title = ''
 	export let locale = 'en'
 	export let symbol_name_aa = []

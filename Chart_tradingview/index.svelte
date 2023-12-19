@@ -1,8 +1,8 @@
 <script>
 	import { hostname_ } from '@ctx-core/dom'
-	import { query_str_ } from '@ctx-core/uri'
+	import { query_str_ } from 'ctx-core/uri'
 	// See https://www.tradingview.com/widget/advanced-chart/
-	import { uuid_ } from '@ctx-core/uuid'
+	import { uuid_ } from 'ctx-core/uuid'
 	export let id = `Chart_tradingview__${uuid_()}`
 	/** @type {string} */
 	export let symbol

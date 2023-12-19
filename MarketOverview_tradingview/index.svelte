@@ -1,5 +1,5 @@
-<script>
-	import { a_present_ } from '@ctx-core/array'
+<script lang="ts">
+	import { a_present_ } from 'ctx-core/array'
 	/** @type {string} */
 	export let symbol
 	export let locale = 'en'
