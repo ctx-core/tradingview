@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.2.150",
+	"version": "9.2.151",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -45,8 +45,8 @@
 	},
 	"dependencies": {
 		"@ctx-core/dom": "^15.3.35",
-		"ctx-core": "^6.4.1",
-		"svelte": "^4.2.10"
+		"ctx-core": "^6.4.2",
+		"svelte": "^4.2.11"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",

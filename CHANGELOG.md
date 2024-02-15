@@ -1,5 +1,13 @@
 # @ctx-core/tradingview
 
+## 9.2.151
+
+### Patch Changes
+
+- svelte: ^4.2.10 -> ^4.2.11
+- Updated dependencies
+  - ctx-core@6.4.2
+
 ## 9.2.150
 
 ### Patch Changes
