@@ -1,5 +1,14 @@
 # @ctx-core/tradingview
 
+## 9.2.170
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+  - @ctx-core/dom@15.3.53
+
 ## 9.2.169
 
 ### Patch Changes

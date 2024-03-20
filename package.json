@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.2.169",
+	"version": "9.2.170",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",
@@ -17,7 +17,11 @@
 		"url": "https://github.com/ctx-core/tradingview.git"
 	},
 	"license": "Apache-2.0",
-	"author": "Brian Takita",
+	"author": {
+		"name": "Brian Takita",
+		"url": "https://briantakita.me",
+		"email": "info+ctx-core-tradingview@briantakita.me"
+	},
 	"type": "module",
 	"files": [
 		"*.d.ts",
@@ -44,8 +48,8 @@
 		"disable:test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"@ctx-core/dom": "^15.3.52",
-		"ctx-core": "^6.6.0",
+		"@ctx-core/dom": "^15.3.53",
+		"ctx-core": "^6.6.1",
 		"svelte": "^4.2.12"
 	},
 	"devDependencies": {
