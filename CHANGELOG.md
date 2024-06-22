@@ -1,5 +1,13 @@
 # @ctx-core/tradingview
 
+## 9.2.217
+
+### Patch Changes
+
+- ctx-core: ^7.2.23 -> ^7.2.24
+- Updated dependencies
+  - @ctx-core/dom@15.3.94
+
 ## 9.2.216
 
 ### Patch Changes
