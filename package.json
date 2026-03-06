@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/tradingview",
-	"version": "9.2.227",
+	"version": "9.2.228",
 	"description": "ctx-core tradingview svelte library",
 	"keywords": [
 		"ctx-core",

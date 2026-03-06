@@ -1,5 +1,14 @@
 # @ctx-core/tradingview
 
+## 9.2.228
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+  - @ctx-core/dom@15.3.104
+
 ## 9.2.227
 
 ### Patch Changes
